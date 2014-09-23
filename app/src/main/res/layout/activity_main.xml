@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal"
+    android:keepScreenOn="true"
+    android:id="@+id/mainView"
+    tools:context=".MainActivity" >
+
+    <WebView
+        android:id="@+id/menuWebview"
+        android:visibility="gone"
+        android:layout_width="300dp"
+        android:overScrollMode="never"
+        android:layout_height="match_parent" />
+
+    <WebView
+        android:id="@+id/contentWebview"
+        android:layout_width="1280dp"
+        android:overScrollMode="never"
+        android:layout_alignParentRight="true"
+        android:layout_height="match_parent" />
+    <ProgressBar
+        android:id="@+id/contentProgressIndicator"
+        android:layout_marginLeft="0dp"
+        android:layout_centerVertical="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/screenSaver"
+        android:visibility="gone"
+        android:clickable="true"
+        android:onClick="removeScreenSaver"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff000000" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+.DS_Store
+.gradle
+*.apk
+.project
+.classpath
+local.properties
+*.iml
+
+build/
+bin/
+gen/
+tmp/
+proguard/
+.settings/

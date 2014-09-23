@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* Bettercare Learning Station by Electric Book Works, http://electricbookworks.com */
+
+
+
+.cover-thumb {
+	border: 1px solid gainsboro;
+	padding: 5px;
+	margin: 1em;
+	width: 150px;
+}
+.unavailable {
+	opacity: 0.5;
+}
