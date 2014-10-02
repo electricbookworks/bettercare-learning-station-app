@@ -12,19 +12,3 @@ gen/
 tmp/
 proguard/
 .settings/
-/Users/niekiedeetlefs/Library/Developer/CoreSimulator/Devices/AA4B15DE-A3B8-429A-87BE-8189899599C4/data/Containers/Data/Application/447C75D1-3648-4E4E-A40E-6E53BD3808DB/Documents/
-
-
-"base_amount" = "0.0056";
-    pair = XBTZAR;
-    pin = 1111;
-    type = BUY;
-
-"order_id" = BXERCJXS2AEU5KW;
-
-"base_amount" = "0.0045";
-    pair = XBTZAR;
-    pin = 1111;
-    type = SELL;
-
-76,96,129
